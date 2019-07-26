@@ -47,6 +47,7 @@ nav a:hover {
     padding: 0 25px 25px 25px;
     border: 3px solid black;
     margin-top: 10px;
+    text-align: center;
 }
 
 .special h1 {
@@ -59,9 +60,15 @@ nav a:hover {
     font-weight: bold;
 }
 
+.otherhalf {
+    padding: 25px;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+
 #bacon {
-    height: 500px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
     border: 2px solid black;
     box-shadow: 1px 1px 5px black;
 }
