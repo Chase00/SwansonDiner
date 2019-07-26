@@ -43,13 +43,32 @@ nav a:hover {
     text-shadow: 1px 1px white;
 }
 
-.special h1 {
-    font-size: 40px;
-    text-shadow: 1px 1px 3px black;
-    color: red;
+.special {
+    padding: 0 25px 25px 25px;
+    border: 3px solid black;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.special p {
+    font-weight: bold;
+}
+
+.otherhalf {
+    padding: 25px;
+    border: 3px solid black;
+    margin-top: 10px;
 }
 
 #bacon {
-    height: 500px;
-    width: 600px;
-} 
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 5px black;
+}
+
+footer {
+    padding: 20px;
+    border: 3px solid black;
+}
